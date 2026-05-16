@@ -11,15 +11,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     color: white;
 }
 
 @media (max-width: 768px) {
     body {
-        background-attachment: scroll;
-        background-position: top center;
-        background-size: contain;
+        background-position: center top;
     }
 }
 
