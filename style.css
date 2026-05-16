@@ -15,6 +15,14 @@ body {
     color: white;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-position: top center;
+        background-size: contain;
+    }
+}
+
 body::before {
     content: "";
     position: fixed;
