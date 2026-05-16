@@ -495,8 +495,8 @@ h2 {
 
     body {
         background-attachment: scroll;
-        background-size: cover;
-        background-position: 65% center;
+        background-size: 160;
+        background-position: center top;
     }
 }
 /* MEXRI EDW */
@@ -679,12 +679,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-
-    body {
-        background-attachment: scroll;
-        background-position: center;
-        background-size: cover;
-    }
 
     header {
         padding: 15px 20px;
