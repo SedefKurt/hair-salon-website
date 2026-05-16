@@ -482,43 +482,6 @@ h2 {
     margin-right: auto;
 }
 
-nav {
-    padding: 15px 20px;
-}
-
-nav ul {
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.hero h1 {
-    font-size: 42px;
-}
-
-.hero p {
-    font-size: 16px;
-}
-
-.services-container,
-.contact-container {
-    grid-template-columns: 1fr;
-}
-
-.gallery-item img {
-    height: 300px;
-    object-fit: cover;
-}
-
-.about-content {
-    padding: 20px;
-}
-
-.contact-form,
-.contact-info {
-    width: 100%;
-}
-
 /* GIA KINHTA */
 @media (max-width: 768px) {
     .gallery-container {
@@ -702,4 +665,60 @@ footer {
 .copyright {
     font-size: 14px;
     opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+    }
+
+    header {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .services-container,
+    .gallery-container,
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: auto;
+    }
+
+    .contact-left,
+    .contact-right,
+    .service {
+        width: 100%;
+    }
+
+    section {
+        padding: 120px 20px;
+    }
+
 }
