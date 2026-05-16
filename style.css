@@ -482,6 +482,43 @@ h2 {
     margin-right: auto;
 }
 
+nav {
+    padding: 15px 20px;
+}
+
+nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 16px;
+}
+
+.services-container,
+.contact-container {
+    grid-template-columns: 1fr;
+}
+
+.gallery-item img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.contact-form,
+.contact-info {
+    width: 100%;
+}
+
 /* GIA KINHTA */
 @media (max-width: 768px) {
     .gallery-container {
